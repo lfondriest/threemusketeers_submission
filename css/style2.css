@@ -1,0 +1,59 @@
+
+body {
+	font: 10px sans-serif;
+}
+
+.group-tick line {
+	stroke: #000;
+}
+
+.ribbons {
+	fill-opacity: 0.67;
+}
+
+.button:hover {
+	fill: #c6e1e2;
+}
+
+.donut-path:hover {
+	fill: #966038
+}
+
+.label {
+	font-size: 24px;
+}
+
+.bitter-button {
+	cursor: pointer;
+	margin: 5px;
+}
+
+#icon-text {
+	font-size: 40px;
+	font-family: "Open Sans";
+}
+
+#icon-subtext {
+	font-size: 18px;
+	font-family: "Open Sans";
+}
+
+#chord-info {
+	padding: 20px;
+	font-family: "Open Sans";
+	font-size: 18px;
+	text-align: center;
+}
+
+.impact {
+	padding: 40px;
+	padding-top: 10px;
+	background-color: whitesmoke;
+	border: solid;
+	border-color: #a6cee3;
+	border-radius: 4px;
+}
+
+.groups{
+	cursor: pointer;
+}
