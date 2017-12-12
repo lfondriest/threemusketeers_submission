@@ -1,0 +1,35 @@
+
+{
+  "nodes":[
+    {"name":"FairTrade","group":1, "section":"1", "hover": 1, "icon":"fairtrade-logo.png"},
+    {"name":"Environment","group":2, "section": "2", "hover": 2, "icon":"environment-01.png"},
+    {"name":"ImprovedLives","group":3, "section":"2", "hover": 3, "icon":"life-01.png"},
+    {"name":"QualityProducts","group":4, "section":"2", "hover": 4, "icon":"quality.png"},
+    {"name":"No Pesticides","group":5, "section":"3", "hover": 2, "icon": "pest-01.png"},
+    {"name":"Improved Waste Management","group":6, "section":"3", "hover": 2, "icon":"waste-01.png"},
+    {"name":"Water Conservation","group":7, "section":"3", "hover": 2, "icon": "water-01.png"},
+    {"name":"Safe Working Conditions","group":8, "section":"3", "hover": 3, "icon":"safe-01.png"},
+    {"name":"Market Access & Money to Farmers","group":9, "section":"3", "hover": 3, "icon": "money-01.png"},
+    {"name":"Increased Education","group":10, "section":"3", "hover": 3, "icon":"education-icon-grey-01.png"},
+    {"name":"Community Investment","group":11, "section":"3", "hover": 3, "icon": "children-icon-grey-01.png"},
+    {"name":"Supports Organic Farming","group":12, "section":"3", "hover": 4, "icon":"organic-01.png"},
+    {"name":"Proper Training","group":13, "section":"3", "hover": 4, "icon": "training-01.png"},
+    {"name":"Grown with Care","group":14, "section":"3", "hover": 4, "icon":"cocooa-icon-grey-01.png"}
+  ],
+  "links":[
+    {"source":0,"target":1,"weight":3.5},
+    {"source":0,"target":2,"weight":3.5},
+    {"source":0,"target":3,"weight":3.5},
+    {"source":1, "target":4,"weight":2},
+    {"source":1, "target":5,"weight":2},
+    {"source":1, "target":6,"weight":2},
+    {"source":2, "target":7,"weight":2},
+    {"source":2, "target":8,"weight":2},
+    {"source":2, "target":9,"weight":2},
+    {"source":2, "target":10,"weight":2},
+    {"source":3, "target":11,"weight":2},
+    {"source":3, "target":5,"weight":2},
+    {"source":3, "target":12,"weight":2},
+    {"source":3, "target":13,"weight":2}
+  ]
+}

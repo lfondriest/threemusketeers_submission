@@ -1,0 +1,554 @@
+
+/* YOUR CSS STYLES */
+
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #381102;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navs{
+    float: left;
+    border-right: .5px solid #f8f3ee;
+    border-left: .5px solid #f8f3ee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 16%;
+    font-weight: lighter;
+}
+
+.guides{
+    color:white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 16.66%;
+}
+
+.guides:hover{
+    color: #381102;
+}
+
+.navs:hover{
+    background-color: #d7c4b4;
+}
+
+.parallel{
+    padding: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.map:hover{
+    stroke-width: 3;
+    stroke: #381102;
+}
+
+#Leo-map{
+    margin-left: -200px;
+}
+
+#Leo-bars{
+    margin-left: 120px;
+}
+
+.barchart_countries, .barchart_values{
+    font-size: 10px;
+}
+
+.barchart.clickable:hover{
+    opacity: 0.65;
+}
+
+#space-filler2{
+    color: black;
+}
+
+.edge2:hover{
+    opacity: 0.5;
+}
+
+.clickable{
+    cursor: pointer
+}
+
+.unclickable{
+    cursor: not-allowed;
+}
+
+.label{
+    font-family: "Open Sans";
+    font-size: 11px;
+}
+
+.tooltip-title {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    background: #f6f6f6;
+    color: #381102;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 11px;
+}
+
+.btn-group{
+    margin-left: 120px;
+    width: 80%;
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(237, 218, 202, 0.0);
+}
+
+#vis-1{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Leo-parallel{
+    padding-left: 50px;
+}
+
+.candy_name{
+    fill: white;
+    text-anchor: middle;
+    font-size: 12px;
+    cursor: default;
+    font-weight: lighter;
+}
+
+.logos{
+    margin-top: -30px;
+    border-radius: 25px;
+    border: solid;
+    stroke: #381102;
+    stroke-width: 5px;
+    fill: #5f2900;
+}
+
+.logos:hover{
+    fill-opacity: 0.7;
+}
+
+.candy_name:hover~.logos{
+    fill-opacity: 0.7;
+}
+
+#nutrition-facts, #space-filler{
+    margin-left: -10px;
+    padding-top: 35px;
+    font-size: 12px;
+}
+
+.NF{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.SS{
+    width: 300px;
+    border-bottom: 8px solid black;
+    padding-bottom: 3px;
+}
+
+.n_fact{
+    width: 300px;
+    border-bottom: 1px solid black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.indented{
+    padding-left: 25px;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 14px;
+}
+
+#heart{
+    width: 250px;
+    height: 250px;
+}
+
+#brain{
+    width: 250px;
+    height: 220px;
+}
+
+#vis-2{
+    color: black;
+}
+
+.bullet{
+    text-align: left;
+    padding: 3px;
+}
+
+.picture{
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+}
+
+.picture2{
+    width: 300px;
+    height: 140px;
+    padding-bottom: 15px;
+}
+
+.vis-3-sub{
+    text-align: center;
+}
+
+.background path {
+    fill: none;
+    stroke: #ddd;
+    shape-rendering: crispEdges;
+}
+
+.foreground path {
+    fill: none;
+    stroke: #381102;
+    stroke-width: .75;
+    opacity: 0.5;
+}
+
+.foreground path:hover{
+    stroke: #381102;
+    stroke-width: 7;
+}
+
+.brush .extent {
+    fill-opacity: .3;
+    stroke: #fff;
+    shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+    fill: none;
+    stroke: #5f5f5f;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+    font-family: "Open Sans";
+    font-size: 11px;
+}
+
+.group-tick line {
+    stroke: #5f5f5f;
+}
+
+.ribbons {
+    fill-opacity: 0.67;
+}
+
+.button:hover {
+    fill: #c6e1e2;
+}
+
+
+.arc-story {
+    font-size: 20px;
+    font-family: "Open Sans";
+    align-content: center;
+}
+
+.label2 {
+    font-size: 24px;
+}
+
+#percentage0,#percentage1, #percentage2,#percentage3,#percentage4,#percentage5 {
+    font-family: "Fjalla One";
+    font-size: 60px;
+}
+
+#button1, #button2 {
+    cursor: pointer;
+}
+
+.donut-labeling{
+    font-size: 22px;
+    font-family: "Open Sans";
+}
+
+#impact {
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-weight: 200;
+    fill: #000;
+
+}
+
+#chord-chart{
+    width: 100%;
+    margin: 0px;
+}
+
+#chord-info {
+    width: 100%;
+    margin: 0px;
+    padding: 20px;
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+
+.groups{
+    cursor: pointer;
+}
+
+.impact {
+    margin-top: 15px;
+    padding-left: 5px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    background-color: #fdfdfd;
+    border: solid;
+    border-color: #67000d;
+    border-radius: 1px;
+}
+
+#donut-header {
+    align-content: center;
+    font-size: 50px;
+    font-family: "Open Sans";
+}
+
+#header-info {
+    font-size: 30px;
+    font-family: "Fjalla One";
+}
+
+.bitter-button {
+    cursor: pointer;
+    margin: 5px;
+}
+
+#icon-text {
+    font-size: 40px;
+    font-family: "Open Sans";
+}
+
+#icon-subtext {
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+
+.sweet-title {
+    font-size: 50px;
+    font-family: "Open Sans";
+    padding: 15px;
+}
+
+.text-faded mb-4 {
+    font-size: 24px;
+}
+
+
+#FT-header{
+    font-size: 40px;
+    font-family: "Open Sans";
+    alignment: right;
+}
+
+.node{
+    cursor: pointer;
+}
+
+.icon-box{
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    margin-right: 2.5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    align-content: center;
+}
+#icon-set {
+    padding-top: 40px;
+}
+
+.section-header {
+    alignment: left;
+    font-size: 50px;
+    margin-left: -120px;
+    margin-right: -120px;
+}
+
+.hr-separate {
+    width: 1000px;
+    border-width: 3px;
+    border-color: #9d9d9d;
+}
+
+
+.infographic {
+    font-family: "Fjalla One";
+    font-size: 35px;
+}
+
+.center-label {
+    font-size: 18px;
+}
+
+#FT-force{
+    margin-top: -100px
+}
+
+#sub-title{
+    font-size: 24px;
+    font-style: italic;
+    padding: -20px;
+}
+
+#website-title {
+    font-size: 50px;
+}
+
+#sweet-facts-overview{
+    font-size: 18px;
+}
+
+.sweet-fact{
+    font-size: 24px;
+}
+
+#parallel-chart {
+    padding-left: 12px;
+}
+
+.NF {
+    padding-top: 55px;
+}
+
+#nutritional-p {
+    padding-bottom: 15px;
+}
+
+#heart{
+    padding-right: 10px;
+}
+#brain{
+    padding-left: 10px;
+}
+
+#unwrap-p {
+    font-size: 14px;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Open Sans";
+    display: inline-block;
+}
+
+.numberCircle:hover {
+    border: 1px solid #381102;
+    color: #381102;
+}
+
+.FT-sub {
+    font-family: "Open Sans";
+    font-size: 14px;
+    padding-left: 15px;
+    color: #381102;
+    text-align: center;
+}
+.FT-list {
+    font-family: "Open Sans";
+    font-size: 12px;
+    padding-left: 15px;
+    color: #381102;
+}
+
+
+#FairTradelist li {
+    list-style-type: none;
+}
+
+.popdown-icon {
+    max-width: 45px;
+    padding-right: 10px;
+}
+
+.numberCircleTrade {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+    border: 1px solid #381102;
+    background: white;
+    color: #381102;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Open Sans";
+    display: inline-block;
+}
+
+.numberCircleFT {
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    padding: .2px;
+    border: 1px solid #ffffff;
+    background:#381102;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Open Sans";
+    display: inline-block;
+}
+
+#space-filler2 li {
+    list-style-type: none;
+    font-family: "Open Sans";
+    padding-left: 30px;
+    text-align: center;
+}
+
+.bar_title {
+    font-size: 20px;
+    font-family: "Fjalla One";
+}
+
+.barchart_values {
+    font-size: 12px;
+}
+
+#references-authors{
+    background-color: rgba(172, 172, 172, 0.34);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.conclusion{
+    padding-left: 15px;
+    margin-left: 50px;
+}
+
+#last-change{
+    margin-left: 70px;
+    margin-right: 70px;
+}

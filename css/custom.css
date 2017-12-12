@@ -1,0 +1,241 @@
+
+h1
+{
+    font-size: 75px;
+    font-family: "Open Sans";
+    font-weight: 100;
+    fill: #eee9e4;
+    padding: -20px;
+}
+
+h2,
+h3 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 100px;
+    font-family: "Fjalla One";
+}
+
+
+.second-line {
+    font-family:"Fjalla One";
+    font-size: 60px;
+    padding-top: -10px;
+}
+
+.text-muted {
+    font-size: 26px;
+}
+hr {
+    border-color: #381102;
+}
+
+header.masthead {
+    background-image: url("../img/beanHeader.jpg");
+}
+
+a {
+    color: #381102;
+}
+a:hover {
+    color: #381102; }
+
+
+#intro-text {
+    font-family: "Open Sans";
+    font-size: 18px;
+}
+
+
+.bg-primary {
+    background-color: rgba(237, 218, 202, 0.59);
+}
+#about {
+    color: #381102;
+}
+
+
+#mainNav .navbar-brand {
+    color: rgba(77, 23, 3, 0.17);
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #381102; }
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #381102; }
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+    color: #381102 !important;
+    background-color: transparent; }
+
+#mainNav.navbar-shrink .navbar-brand {
+    color: #381102; }
+#mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #381102; }
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #212529; }
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #381102; } }
+
+.portfolio-box {
+    position: relative;
+    display: inline-block;
+    max-width: 650px;
+    margin: 0 auto; }
+.portfolio-box .portfolio-box-caption {
+    background: rgba(56, 17, 2, 0.9);
+}
+
+.text-primary {
+    color: rgba(56, 17, 2, 0.9) !important; }
+
+.btn-primary {
+    background-color: #381102;
+    border-color: #381102; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #381102 !important;
+    opacity: 0.5;}
+.btn-primary:active, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(73, 22, 3, 0.5) !important;}
+.img-fluid {
+    width: 100%;
+    height: auto;
+    display:block;
+}
+
+.btn-circle {
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+    margin-top: 15px;
+    line-height: 45px;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100% !important;
+    background: transparent; }
+
+.btn-circle:focus, .btn-circle:hover {
+    color: white;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1); }
+
+#facts-btn {
+    font-size: 26px;
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    line-height: 45px;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out;
+    color: #381102;
+    border: 2px solid #381102;
+    border-radius: 100% !important;
+    background: transparent;
+}
+
+#facts-btn:focus, #facts-btn:hover {
+    color: #b38260;
+    outline: none;
+    background: rgba(179, 130, 96, 0.43); }
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-family: 'Dosis', sans-serif;
+    font-size: 70px;
+}
+
+@media (min-width: 768px) {
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+        font-size: 24px;
+        font-family: 'Dosis', sans-serif; }
+    .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+        font-size: 15px;
+        font-family: "Fjalla One";} }
+
+.label{
+    font-size: 9px;
+}
+
+.tooltip-title {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 12px;
+    background: #c3af8f;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 9px;
+}
+form {
+    width: 200px;
+    margin: 0 auto;
+}
+body{
+    background-color:white;
+}
+
+hr.L_hr{
+    width: 100%;
+}
+
+.navbar {
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    width: 30%;
+    z-index: 10;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.parallaxParent {
+    height: 100vh;
+    overflow: hidden;
+}
+.parallaxParent > * {
+    height: 200%;
+    position: relative;
+    top: -100%;
+}
+
+section{
+    padding-bottom: 50px;
+    padding-top: 75px;
+}
+
