@@ -48,7 +48,7 @@ function donutVis () {
         var donutData = data;
 
         var donutColor = d3.scaleOrdinal()
-            .range(["#67000d", "#7a0047", "#c6635a", "#fee0d2", "#6b4656", "#d04046", "#aa0544"]);
+            .range(["#67000d", "#7a0047", "#c6635a", "#fee0d2", "#6b4656", "#d04046", "#aa0544", "#ac052f"]);
 
         var labels = donutContainer.selectAll(".donut-labeling")
             .data(pie(donutData))

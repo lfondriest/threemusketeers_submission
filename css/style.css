@@ -1,6 +1,10 @@
 
 /* YOUR CSS STYLES */
 
+body{
+    overflow-x: hidden;
+}
+
 .nav-bar{
     list-style-type: none;
     margin: 0;
